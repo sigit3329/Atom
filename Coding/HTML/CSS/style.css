@@ -1,0 +1,45 @@
+/* selector */
+
+
+/* berdasarkan element */
+div p1 {
+    color: blue;
+}
+
+div p2 {
+    color: red;
+}
+
+/* css menggunakan id hanya digunakan 1x*/
+#judul{
+    color: pink;
+}
+
+/* ini menggunakan class bisa digunakan berulang */
+.belajar{
+    color: purple;
+}
+
+
+/* mengubah beberapa element sekaligus */
+h2,h3,h4{
+    color: salmon;
+}
+
+/* css spesifik==tidak mempengaruhi class belajar yg lain */
+h5.belajar{
+    color: slategrey;
+}
+
+p.backroundclolor{
+    color: chartreuse;
+    background-color:burlywood;
+}
+
+body{
+    /* background-image: url("https://i.ibb.co/qCKJ7mq/faded-laptop-in-background-with-html-code-highlighted-on-the-screen-832x556.jpg");
+    background-repeat: no-repeat;
+    background-position: center top; */
+
+    background: rgb(172, 247, 21) url("https://i.ibb.co/qCKJ7mq/faded-laptop-in-background-with-html-code-highlighted-on-the-screen-832x556.jpg")  no-repeat center top ;
+}
